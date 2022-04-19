@@ -419,7 +419,7 @@ public class Third {
 }
 class Gui{
     public static void main(String[] args) {
-        String name="Abishek Bimali";
+        String name="error404";
         JOptionPane.showMessageDialog(null,name);
     }
 }
@@ -596,6 +596,6 @@ class q13{
         double sum=B+C+D;
         double per= sum/4;
         int percentint=(int)per;
-        JOptionPane.showMessageDialog(null,"Robert has scored: "+ percentint +"%");
+        JOptionPane.showMessageDialog(null,"error has scored: "+ percentint +"%");
     }
 }
