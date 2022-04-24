@@ -359,13 +359,17 @@
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
             System.out.println("enter the number: ");
-            int day=scanner.nextInt();
-            switch(day) {
+            int year=scanner.nextInt();
+            switch(year) {
                 case 0:
                     System.out.println("january");
                     break;
                 case 1:
                     System.out.println("february");
+                    if ((year %400==0)) || ((year %4==0)) && year(%100 !=0)){
+
+                }
+
                     break;
                 case 2:
                     System.out.println("march");
@@ -443,5 +447,43 @@
             }
         }
     }
+
+
+    //year using leap year
+
+    //if (year%400==0) || ((year*100!=0 && year%4==0)))
+
+
+
+
+    }
+
+
+
+ double determinant = (b*b) -(4*a*c);
+double sqrt = Math.sqrt(determinant);
+System.out.println(determinant);
+ (if determinant >0){
+ firstRoot =(-b +sqrt)/(2*a);
+ second root =(-b-sqrt)/(2*a);
+ system.out.println("roots are " first root+second root);
+ elseif (determinant ==0){
+ system.out.println("root is :+ (-b)/(2*a));
+
+
+ if (unit<=50){
+price=unit *0.5;
+} charge=0.2*amount
+
+ elif (units<=150)
+ amount = 25+ ((units -50) +0.75
+ charge =0.2* amount
+
+elif units <=250
+ amount=25 +75+ ((units-150)*1.20;
+charge =0.2*amount
+
+ else amount =25+75+125
+
 
 
